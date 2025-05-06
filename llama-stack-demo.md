@@ -236,8 +236,25 @@ llama stack run .llama/distributions/meta-reference-gpu/meta-reference-gpu-run.y
 
 https://github.com/meta-llama/llama-stack-apps/tree/main/examples
 
+Bash:
+```
+conda activate llamaapps
+cd ~/Documents/llamademo/llama-stack-apps
+python -m examples.agents.simple_chat --host 20.72.80.241 --port 5001
 
-python -m examples.agents.hello 20.72.80.241 5001
+python -m examples.agents.chat_with_documents --host 20.72.80.241 --port 5001
+
+
+```
+
+
+
+
+
+
+
+
+#### Anexos
 
 $ $ wget https://developer.download.nvidia.com/compute/nvidia-driver/$version/local_installers/nvidia-driver-local-repo-$ubuntu2404-575_x86_64_ext.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
