@@ -1,10 +1,10 @@
 # LLama Stack Demo
-ssh -i "C:\Users\pontiveros\Downloads\DttLab_key_20250503.pem" azureuser@20.72.80.241
+ssh -i ".\Downloads\DttLab_key_20250503.pem" azureuser@20.72.80.241
 ## VM Specs:
 
 
 ### Clave Acceso:
-"C:\Users\pontiveros\Downloads\DttLab_key_20250503.pem"
+"C:\Users\<user>\Downloads\DttLab_key_20250503.pem"
 
 
 
@@ -229,6 +229,15 @@ llama stack run .llama/distributions/meta-reference-gpu/meta-reference-gpu-run.y
   --env INFERENCE_MODEL=meta-llama/Llama-3.2-3B-Instruct
 ```
 
+
+
+
+### Some Examples
+
+https://github.com/meta-llama/llama-stack-apps/tree/main/examples
+
+
+python -m examples.agents.hello 20.72.80.241 5001
 
 $ $ wget https://developer.download.nvidia.com/compute/nvidia-driver/$version/local_installers/nvidia-driver-local-repo-$ubuntu2404-575_x86_64_ext.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
