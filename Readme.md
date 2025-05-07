@@ -1,5 +1,8 @@
 # LLama Stack Demo
 ssh -i ".\Downloads\DttLab_20250506.pem" azureuser@172.206.50.74
+
+
+ssh -i ".\Downloads\DttLabH100.pem" azureuser@20.246.72.227
 ## VM Specs:
 
 
