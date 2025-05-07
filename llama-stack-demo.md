@@ -1,5 +1,5 @@
 # LLama Stack Demo
-ssh -i ".\Downloads\DttLab_key_20250503.pem" azureuser@20.72.80.241
+ssh -i ".\Downloads\DttLab_20250506.pem" azureuser@172.206.50.74
 ## VM Specs:
 
 
@@ -254,12 +254,24 @@ python -m examples.agents.chat_with_documents --host 20.72.80.241 --port 5001
 
 
 
-#### Anexos
+# Anexos
+## llama-stack-client configure
 
+Bash:
+```
+(llamaapps) C:\Users\azureuser>llama-stack-client configure
+> Enter the endpoint of the Llama Stack distribution server: http://20.72.80.241:5001
+```
+
+
+## nvidia-driver
+
+Bash:
+```
 $ $ wget https://developer.download.nvidia.com/compute/nvidia-driver/$version/local_installers/nvidia-driver-local-repo-$ubuntu2404-575_x86_64_ext.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt update
-
+```
 
 
 # rpm --install nvidia-driver-local-repo-ubuntu2404.$version*.x86_64.rpm
