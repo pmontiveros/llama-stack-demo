@@ -258,6 +258,21 @@ python -m examples.agents.chat_with_documents --host 20.72.80.241 --port 5001
 
 
 # Anexos
+## Inferencia en Fireworks:
+
+
+
+Bash:
+```
+cd /home/azureuser/llamademo
+conda activate llamademoenv
+export FIREWORKS_API_KEY="fw_3ZgBZ819vQ5S27KMe6N2DXWF"
+llama stack build --template fireworks --image-type conda
+llama stack run ./run.yaml \
+  --port $LLAMA_STACK_PORT \
+  --env FIREWORKS_API_KEY=$FIREWORKS_API_KEY
+```
+
 ## llama-stack-client configure
 
 Bash:
