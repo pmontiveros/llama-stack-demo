@@ -260,7 +260,7 @@ python -m examples.agents.chat_with_documents --host 20.72.80.241 --port 5001
 Bash:
 ```
 (llamaapps) C:\Users\azureuser>llama-stack-client configure
-> Enter the endpoint of the Llama Stack distribution server: http://20.72.80.241:5001
+> Enter the endpoint of the Llama Stack distribution server: http://172.206.50.74:5001
 ```
 
 
