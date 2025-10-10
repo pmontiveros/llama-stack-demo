@@ -1,0 +1,37 @@
+;account_id;descripcion;descripcion_input;nivel;monto;cuenta_minima;cuenta_multiple;modo
+0;100000000000;ACTIVO;Bienes;1;360983534034.16;False;False;Lookup Directo DB - ID
+1;100000000000;ACTIVO;Recursos;1;246787422413.55;False;False;Lookup Directo DB - ID
+2;100000000000;ACTIVO;Patrimonio;1;371013574290.73;False;False;Lookup Directo DB - ID
+3;100200001001;Efectivo y equivalentes de efectivo;Efectivo y equivalentes de efectivo;2;25465701817.88;False;False;Lookup Directo DB - ID
+4;100200001001;Efectivo y equivalentes de efectivo;Efectivo y equivalentes de efectivo;2;22710730889.63;False;False;Lookup Directo DB - ID
+5;100200001001;Efectivo y equivalentes de efectivo;Efectivo y equivalentes de efectivo;2;37525192033.31;False;False;Lookup Directo DB - ID
+6;100200102001;Caja;Efectivo;3;6295972831.27;True;False;Lookup Directo DB - ID
+7;100200102001;Caja;Tesorería;3;7216924455.85;True;False;Lookup Directo DB - ID
+8;100200102001;Caja;Dinero disponible;3;15588007063.95;True;False;Lookup Directo DB - ID
+9;100200102002;Bancos;Reservas bancarias;3;5416816.72;False;False;Lookup Directo DB - ID
+10;100200102002;Bancos;Depósitos;3;3285229.11;False;False;Lookup Directo DB - ID
+11;100200102002;Bancos;Cuentas bancarias;3;6623165.78;False;False;Lookup Directo DB - ID
+12;100200203001;Depósitos en Banco de México;Fondos en Banxico;4;90184.14;True;False;Lookup Directo DB - ID
+13;100200203001;Depósitos en Banco de México;Reservas en el Banco Central;4;96484.91;True;False;Lookup Directo DB - ID
+14;100200203001;Depósitos en Banco de México;Deposit of Mexican Bank;4;121170.67;True;False;Lookup Directo DB - ID
+15;100200203002;Depósitos en otras entidades financieras;Depósitos en otras entidades financieras;4;3277875.02;True;False;Lookup Directo DB - ID
+16;100200203002;Depósitos en otras entidades financieras;Depósitos en otras entidades financieras;4;5062396.83;True;False;Lookup Directo DB - ID
+17;100200203002;Depósitos en otras entidades financieras;Depósitos en otras entidades financieras;4;6677100.04;True;False;Lookup Directo DB - ID
+18;100200102003;Documentos de cobro inmediato;Documentos de cobro inmediato;3;211828569.17;True;False;Lookup Directo DB - ID
+19;100200102003;Documentos de cobro inmediato;Documentos de cobro inmediato;3;172266162.49;True;False;Lookup Directo DB - ID
+20;100200102003;Documentos de cobro inmediato;Documentos de cobro inmediato;3;332660496.06;True;False;Lookup Directo DB - ID
+21;100200102005;Instrumentos financieros de alta liquidez;Activos líquidos;3;227052434.8;True;False;Lookup Directo DB - ID
+22;100200102005;Instrumentos financieros de alta liquidez;Valores líquidos;3;266567352.67;True;False;Lookup Directo DB - ID
+23;100200102005;Instrumentos financieros de alta liquidez;Títulos negociables;3;328248522.84;True;False;Lookup Directo DB - ID
+24;100200102006;Efectivo y equivalentes de efectivo restringidos o dados en garantía;Efectivo y equivalentes de efectivo restringidos o dados en garantía;3;15151869425.5;False;False;Lookup Directo DB - ID
+25;100200102006;Efectivo y equivalentes de efectivo restringidos o dados en garantía;Efectivo y equivalentes de efectivo restringidos o dados en garantía;3;13247502379.55;False;False;Lookup Directo DB - ID
+26;100200102006;Efectivo y equivalentes de efectivo restringidos o dados en garantía;Efectivo y equivalentes de efectivo restringidos o dados en garantía;3;26647399835.06;False;False;Lookup Directo DB - ID
+27;100200603004;Banco de México;Banco de México;4;12666128589.8;True;False;Lookup Directo DB - ID
+28;100200603004;Banco de México;Banco de México;4;11023312681.65;True;False;Lookup Directo DB - ID
+29;100200603004;Banco de México;Banco de México;4;31357330368.66;True;False;Lookup Directo DB - ID
+30;100400001001;Cuentas de margen (instrumentos financieros derivados);Cuentas de margen (instrumentos financieros derivados);2;2411783.85;False;False;Lookup Directo DB - ID
+31;100400001001;Cuentas de margen (instrumentos financieros derivados);Cuentas de margen (instrumentos financieros derivados);2;2702514.34;False;False;Lookup Directo DB - ID
+32;100400001001;Cuentas de margen (instrumentos financieros derivados);Cuentas de margen (instrumentos financieros derivados);2;4501169.03;False;False;Lookup Directo DB - ID
+33;100400102001;Efectivo;Efectivo;3;3823877.61;True;False;Lookup Directo DB - ID
+34;100400102001;Efectivo;Efectivo;3;2267109.29;True;False;Lookup Directo DB - ID
+35;100400102001;Efectivo;Efectivo;3;3524480.32;True;False;Lookup Directo DB - ID
